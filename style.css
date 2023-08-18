@@ -1,18 +1,30 @@
 .container {
-    background-color: #1f2937;
+    display: flex;
+    background: #1f2937;
 }
 
-.logo {
-    flex: auto;
+.header {
+    display: flex;
 }
 
-.hero h1{
+.headnav {
+    display: flex;
+    color:#e5e7eb;
+}
+
+.hlink {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+    justify-content: space-around;
+}
+.hero h1 {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
 }
 
-.hero h2{
+.hero h2 {
     font-size: 18px;
     color: #e5e7eb;
 }
