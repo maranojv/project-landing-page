@@ -1,0 +1,18 @@
+.container {
+    background-color: #1f2937;
+}
+
+.logo {
+    flex: auto;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.hero h2{
+    font-size: 18px;
+    color: #e5e7eb;
+}
